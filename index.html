@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Taste and Tell</title>
+	<link rel="icon" href="beer.png" type="image/png">
+	<link rel="stylesheet" href="animate.css">
+	<link rel="stylesheet" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Gabriela|Oswald' rel='stylesheet' type='text/css'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<div class="outterWrapper">
+
+	<div class="wrapper">
+		<div class="generator">
+			<h1>Drink Descriptor Generator</h1>
+
+		
+<!-- Glass SVG -->
+			<div class="drink">
+						<svg class="drink" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Your_Icon" x="0px" y="0px" viewBox="5.0 -10.0 100.0 135.0" enable-background="new 0 0 100 100" xml:space="preserve" height="100px" width="100px">
+				<g>
+					<path d="M50.155,94c-0.53,0-0.958-0.429-0.958-0.958s0.429-0.958,0.958-0.958c39.03,0,39.751-33.091,39.762-34.5V9.604H50.155   c-0.53,0-0.958-0.429-0.958-0.958c0-0.53,0.429-0.958,0.958-0.958h40.72c0.53,0,0.958,0.429,0.958,0.958v48.945   C91.831,57.962,91.114,94,50.155,94z"/>
+				</g>
+				<g>
+					<path d="M50.155,94C9.196,94,8.479,57.962,8.476,57.598V8.646c0-0.53,0.429-0.958,0.958-0.958h40.72   c0.53,0,0.958,0.429,0.958,0.958c0,0.53-0.429,0.958-0.958,0.958H10.393v47.987c0.011,1.402,0.733,34.493,39.762,34.493   c0.53,0,0.958,0.429,0.958,0.958S50.684,94,50.155,94z"/>
+				</g>
+					<path d="M85.765,49.638c-0.026-0.509-0.447-0.909-0.957-0.909h-8.912l3.72-2.664c0.207-0.149,0.346-0.372,0.387-0.623  c0.042-0.251-0.018-0.507-0.166-0.714L65.333,24.474c-0.309-0.429-0.908-0.531-1.337-0.222l-10.8,7.733l-18.67-6.249  c-0.5-0.167-1.045,0.103-1.213,0.604L25.82,48.729h-9.519c-0.53,0-0.958,0.429-0.958,0.958c0,9.103,2.591,38.804,35.922,38.804  c10.323,0,18.558-3.156,24.475-9.379C86.547,67.747,85.801,50.373,85.765,49.638z M64.333,26.369l13.388,18.696l-5.117,3.664H54.111  l4.643-13.872c0.168-0.502-0.103-1.045-0.604-1.213l-2.709-0.907L64.333,26.369z M51.33,50.999l-1.996,5.964L30.46,50.645h20.617  L51.33,50.999z M52.062,48.729l-6.425-8.973l7.879-5.642l3.116,1.043L52.09,48.729H52.062z M53.47,50.645h16.458l-10.903,7.807  l-5.566-7.774L53.47,50.645z M34.827,27.858l16.447,5.505l-7.531,5.393c-0.43,0.309-0.53,0.907-0.222,1.337l6.184,8.636H27.841  L34.827,27.858z M74.344,77.8c-5.541,5.823-13.306,8.775-23.078,8.775c-10.126,0-33.546-3.527-33.999-35.93h8.178  c0.007,0.016,0.006,0.035,0.014,0.051c0.113,0.227,0.312,0.4,0.553,0.481l23.624,7.907c0.099,0.033,0.201,0.05,0.304,0.05  c0.147,0,0.294-0.034,0.428-0.101c0.227-0.113,0.4-0.312,0.481-0.553l1.86-5.557l5.316,7.425c0.149,0.207,0.372,0.346,0.623,0.387  c0.052,0.008,0.104,0.013,0.156,0.013c0.198,0,0.394-0.062,0.558-0.179l13.859-9.924h10.645C83.858,54.343,83.223,68.47,74.344,77.8  z"/>
+					</svg>
+			</div>
+
+			<h2>It's like your own personal sommelier. Or beermelier. Or whatever your're drinking -melier.</h2>
+
+			<p>Select your brand of choice to become the expert!</p>
+
+			<form action="get" class="search">
+				<input type="text" list="autocomplete" datalist placeholder="Start typing your brand..." class="userInput">
+				<datalist id="autocomplete">
+				</datalist>
+				<input type="submit" value="Search" >
+			</form>
+		</div> 
+
+		<footer>
+			<p>made with &hearts; by Sarah Lesh, &copy; 2015</p>
+		</footer>
+		
+	</div>
+<!-- end generator -->
+
+	<div class="overlay">
+		<div class="container">
+		</div>
+			<h3>Now, don't you sound snazzy.</h3>
+			<!-- end container -->
+		<div class="overlayBottom">
+			<a href="#" class="closeOverlay"> Shall we have another?</a>
+		</div>
+	</div> 
+</div>
+<!-- end overlay -->
+
+<!-- Thanks to Cards Against Humanity & Blaise Sewell from The Noun Project for the SVGs!! -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="scripts.js"></script>
+	
+</body>
+</html>
